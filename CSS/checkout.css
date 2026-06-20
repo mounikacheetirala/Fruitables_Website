@@ -1,0 +1,869 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    width: 100%;
+    /* overflow-x: hidden; */
+
+}
+
+.c74{
+    color: #747d88;
+}
+select{
+    border: none;
+    width: 30px;
+    
+}
+option{
+    background-color: #81c408;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+/* Top Bar */
+
+.location i {
+    font-size: 14px;
+    color: #ffb524;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: #81c408;
+    max-width: 1200px;
+    width: 85%;
+    margin: auto;
+    padding: 15px 25px;
+    border-radius: 230px 100px;
+    color: #fff;
+}
+
+.location {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.terms {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.terms a,
+.location p {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Header */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logo h1 {
+    color: #81c408;
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.nav-items a,
+.pages button {
+    text-decoration: none;
+    color: #747d88;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav-items a:first-child {
+    color: #81c408;
+}
+
+.pages button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #ffb524;
+    background: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cart-icon{
+    position: relative;
+    display: inline-block;
+}
+
+.cart-icon i{
+    font-size: 32px;
+}
+
+.circle{
+    position: absolute;
+    top: -5px;
+    right: -10px;
+
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+    background: #ffb524;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+.icons i {
+    color: #81c408;
+    font-size: 30px;
+}
+
+.icons button i {
+    font-size: 15px;
+}
+
+
+.image {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/sapple.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 3rem;
+}
+
+.image h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+ol li {
+    display: inline;
+    color: white;
+    font-size: 20px;
+}
+
+ol a {
+    text-decoration: none;
+    color: #81c408;
+}
+
+
+
+
+
+.container2{
+    width:100%;
+    padding:100px;
+}
+
+.container2 h1{
+    margin-bottom:30px;
+}
+
+.details{
+    display:flex;
+    gap:40px;
+    align-items:flex-start;
+}
+
+.forms{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.tables{
+    flex:1;
+}
+
+.in{
+    display:flex;
+    gap:20px;
+}
+
+.in1{
+    flex:1;
+}
+
+.in1 label,
+.in2 label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.in1 input,
+.in2 input{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+.in2{
+    display:flex;
+    flex-direction:column;
+}
+
+.check{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+textarea{
+    width:100%;
+    padding:15px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    resize:none;
+}
+
+/* TABLE */
+
+.table2{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.table2 th{
+    text-align:center;
+    border-bottom:2px solid #ddd;
+    padding:15px;
+}
+
+.table2 td{
+    padding:20px 15px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+
+.img1{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.right{
+    text-align:right;
+    font-weight:600;
+}
+
+.shipping-options{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    align-items:flex-start;
+}
+.option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .price td{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+} */
+.payment{
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.payment label{
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
+
+.payment button{
+    padding:15px;
+    border:2px solid #81c408;
+    background:white;
+    color:#81c408;
+    font-weight:700;
+    cursor:pointer;
+    border-radius:7px;
+}
+
+.payment button:hover{
+    background:#81c408;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background:#45595b;
+    padding-top:50px;
+    color:#fff;
+    font-family:"Open Sans",sans-serif;
+}
+
+/* Top Section */
+
+.f1{
+    width:90%;
+    margin:auto;
+}
+
+.f3{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+    padding-bottom:40px;
+}
+
+.f4 a{
+    text-decoration:none;
+}
+
+.f4 h1{
+    color:#81c408;
+    font-size:40px;
+    font-family:"Raleway",sans-serif;
+}
+
+.f4 p{
+    color:#ffb524;
+    font-size:16px;
+}
+
+/* Subscribe */
+
+.f5{
+    flex:1;
+    max-width:550px;
+}
+
+.f6{
+    position:relative;
+    width:100%;
+}
+
+.f6 input{
+    width:100%;
+    padding:18px 25px;
+    border:none;
+    outline:none;
+    border-radius:50px;
+    font-size:16px;
+}
+
+.f6 button{
+    position:absolute;
+    top:0;
+    right:0;
+    height:100%;
+    border:none;
+    background:#81c408;
+    color:#fff;
+    padding:0 30px;
+    border-radius:50px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.f6 button:hover{
+    background:#ffb524;
+}
+
+/* Social Icons */
+
+.f8{
+    display:flex;
+    gap:12px;
+}
+
+.f8 a{
+    width:45px;
+    height:45px;
+    border:1px solid #ffb524;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.f8 a i{
+    color:#ffb524;
+    font-size:18px;
+}
+
+.f8 a:hover{
+    background:#ffb524;
+}
+
+.f8 a:hover i{
+    color:#fff;
+}
+
+/* Divider */
+
+hr{
+    border:1px solid rgba(226,175,24,.5);
+    margin-bottom:40px;
+}
+
+/* Footer Grid */
+
+.container1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    gap:30px;
+    padding-bottom:50px;
+}
+
+.c1,
+.c3,
+.c5,
+.c7{
+    flex:1 1 250px;
+}
+
+/* Headings */
+
+.fh4{
+    font-size:24px;
+    color:#fff;
+    margin-bottom:20px;
+    font-family:"Raleway",sans-serif;
+}
+
+.fhp{
+    color:#d8d8d8;
+    line-height:1.8;
+}
+
+/* Read More */
+
+.read-btn{
+    margin-top:20px;
+    padding:12px 25px;
+    background:transparent;
+    border:1px solid #ffb524;
+    border-radius:50px;
+}
+
+.read-btn a{
+    text-decoration:none;
+    color:#81c408;
+    font-weight:600;
+}
+
+.read-btn:hover{
+    background:#ffb524;
+}
+
+.read-btn:hover a{
+    color:#fff;
+}
+
+/* Links */
+
+.c4,
+.c6{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.c4 a,
+.c6 a{
+    text-decoration:none;
+    color:#d8d8d8;
+    transition:.3s;
+}
+
+.c4 a:hover,
+.c6 a:hover{
+    color:#81c408;
+}
+
+/* Contact */
+
+.c8 img{
+    margin-top:15px;
+    height:32px;
+}
+
+/* Bottom Footer */
+
+.c10{
+    border-top:1px solid rgba(255,255,255,.15);
+    padding:25px 5%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+}
+
+.c11,
+.c12{
+    color:#d8d8d8;
+}
+
+.c11 a,
+.c12 a{
+    color:#81c408;
+}
+
+.c11 a{
+    text-decoration:none;
+}
+
+.c12 a{
+    text-decoration:underline;
+}
+
+   .container{
+    width:85%;
+    margin:100px auto;
+}
+
+
+
+
+.R{
+    font-family: "Raleway",sans-serif;
+}
+.O{
+    font-family: "Open sans",sans-serif;
+
+}
+.c44{
+    color:#45595b;
+}
+.c74{
+    color:#747d88;
+}
+.c84{
+    color:#81c408
+
+}
+input[type="checkbox"]{
+    accent-color: #81c408;
+}
+
+/* Responsive */
+
+/* @media(max-width:992px){
+    
+
+    .details{
+        flex-direction:column;
+    }
+
+    .in{
+        flex-direction:column;
+    }
+} */
+@media (max-width: 700px){
+      .head1 {
+        width: 95%;
+        margin: 10px auto;
+        border-radius: 20px;
+        padding: 12px 15px;
+        text-align: center;
+        flex-direction: column;
+        gap: 8px;
+        position: static;
+    }
+
+    .location,
+    .terms {
+        flex-direction: column;
+        gap: 6px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .location p,
+    .terms a {
+        font-size: 13px;
+    }
+
+    /* ----- HEADER / NAV ----- */
+    header {
+        position: static;
+    }
+
+    nav {
+        width: 95%;
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px 0;
+    }
+
+    .logo h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-items a,
+    .pages button {
+        font-size: 15px;
+    }
+
+    .icons {
+        justify-content: center;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .icons button {
+        width: 38px;
+        height: 38px;
+    }
+
+    .icons i {
+        font-size: 20px;
+    }
+
+    /* ----- PAGE BANNER ----- */
+    .image {
+        padding: 2rem 1rem;
+    }
+
+    .image h1 {
+        font-size: 30px;
+    }
+
+    ol li {
+        font-size: 16px;
+    }
+
+
+   *{
+    outline:1px solid red;
+}
+
+    
+
+
+    
+
+
+
+
+    /* Checkout Section */
+.container2{
+    padding: 20px 15px;
+}
+
+.container2 h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Billing form and order section */
+.details{
+    flex-direction: column;
+    gap: 30px;
+}
+
+.forms,
+.tables{
+    width: 100%;
+}
+
+/* First name & Last name */
+.in{
+    flex-direction: column;
+    gap: 15px;
+}
+
+.in1,
+.in2{
+    width: 100%;
+}
+
+.in1 input,
+.in2 input,
+textarea{
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+}
+
+/* Checkbox labels */
+.check{
+    font-size: 14px;
+    align-items: flex-start;
+}
+
+/* Order Table */
+.tables{
+        width:100%;
+        overflow-x:auto;
+        -webkit-overflow-scrolling:touch;
+    }
+
+    .table2{
+        min-width:600px;
+        width:100%;
+        border-collapse:collapse;
+    }
+
+    .table2 th,
+    .table2 td{
+        padding:12px 8px;
+        font-size:14px;
+        white-space:nowrap;
+    }
+
+    .img1{
+        width:45px;
+        height:45px;
+    }
+/* Shipping Options */
+.shipping-options{
+    gap: 8px;
+}
+
+.shipping-options label{
+    font-size: 14px;
+}
+
+/* Payment Section */
+.payment{
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.payment label{
+    font-size: 14px;
+    align-items: flex-start;
+}
+
+.payment p{
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.payment button{
+    width: 100%;
+    padding: 14px;
+    font-size: 15px;
+}
+
+
+
+
+   
+
+   
+
+     .f3{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .f6 button{
+        position:static;
+        width:100%;
+        margin-top:10px;
+        padding:15px;
+    }
+
+    .container1{
+        flex-direction:column;
+        gap:30px;
+    }
+
+    .c1,
+    .c3,
+    .c5,
+    .c7{
+        width:100%;
+    }
+
+    .f8{
+        justify-content:center;
+    }
+
+    .c10{
+        flex-direction:column;
+        text-align:center;
+    }
+  
+
+   
+
+}

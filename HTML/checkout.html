@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckOut</title>
+    <link rel="stylesheet" href="../CSS/checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+     <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;family=Raleway:wght@600;800&amp;display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="head1">
+        <!-- <i class="fas fa-search"></i> -->
+        <div class="location">
+            <p><i class="fas fa-map-marker-alt"></i>&nbsp;123 Street, New York</p>
+            <p><i class="fas fa-envelope"></i>&nbsp;Email@Example.com</p>
+        </div>
+        <div class="terms">
+            <a href="#">Privacy Policy&nbsp;/</a>
+            <a href="#">Terms of Use&nbsp;/</a>
+            <a href="#">Sales and Refunds&nbsp;</a>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Fruitables</h1>
+            </div>
+            <div class="nav-items">
+                <a href="../HTML/home.html">Home</a>
+                <a href="../HTML/shop.html">Shop</a>
+                <a href="../HTML/shopdetails.html">Shop Detail</a>
+                <div class="pages">
+                    <label class="c74">
+                        Pages
+                        <select onchange="location = this.value;">
+                            <option value=""></option>
+                            <option value="../HTML/cart.html">Cart</option>
+                            <option value="../HTML/checkout.html">Checkout</option>
+                            <option value="../HTML/testimonial.html">Testimonial</option>
+                            <option value="../HTML/error.html">Error</option>
+                        </select>
+                    </label>
+                    <!-- <button>Pages &nbsp;&nbsp;<i class="fa fa-caret-down"></i></button> -->
+                </div>
+                <a href="../HTML/contact.html">Contact</a>
+            </div>
+            <div class="icons">
+                <button><i class="fa fa-search"></i></button>
+                <div class="cart-icon">
+                    <i class="fa fa-shopping-bag"></i>
+                    <span class="circle">2</span>
+                </div>
+                <i class="fas fa-user "></i>
+            </div>
+        </nav>
+    </header>
+    <div class="hero-section">
+        <div class="image">
+            <h1 class="R">Checkout</h1>
+            <ol>
+                <li><a href="#" class="O">Home &nbsp;/</a></li>
+                <li><a href="#" class="O">Pages &nbsp;/</a></li>
+                <li class="O">Checkout</li>
+            </ol>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container2">
+        <h1 class="R c44">Billing Details</h1>
+
+        <div class="details">
+
+            <!-- Billing Form -->
+            <div class="forms">
+
+                <div class="in">
+                    <div class="in1">
+                        <label class="O c74">First Name *</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="in1">
+                        <label class="O c74">Last Name *</label>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="in2">
+                    <label class="O c74">Company Name *</label>
+                    <input type="text">
+                </div>
+
+                <div class="in2">
+                    <label class="O c74">Address *</label>
+                    <input type="text" placeholder="House Number Street Name">
+                </div>
+
+                <div class="in2">
+                    <label class=" O c74">Town / City *</label>
+                    <input type="text">
+                </div>
+
+                <div class="in2">
+                    <label class="O c74">Country *</label>
+                    <input type="text">
+                </div>
+
+                <div class="in2">
+                    <label class="O c74">Postcode / Zip *</label>
+                    <input type="text">
+                </div>
+
+                <div class="in2">
+                    <label class="O c74">Mobile *</label>
+                    <input type="text">
+                </div>
+
+                <div class="in2">
+                    <label class="O c74">Email Address *</label>
+                    <input type="email">
+                </div>
+
+                <label class="check c74 O">
+                    <input type="checkbox">
+                    Create an account?
+                </label>
+
+                <hr>
+
+                <label class="check c74 O">
+                    <input type="checkbox">
+                    Ship to a different address?
+                </label>
+
+                <textarea rows="10" placeholder="Order Notes (Optional)"></textarea>
+
+            </div>
+
+            <!-- Order Table -->
+            <div class="tables">
+
+                <table class="table2">
+
+                    <thead>
+                        <tr>
+                            <th class="O c74">Product</th>
+                            <th class="O c74">Name</th>
+                            <th class="O c74">Price</th>
+                            <th class="O c74">Qty</th>
+                            <th class="O c74">Total</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>
+                                <img src="../Images/banana.png" class="img1" alt="">
+                            </td>
+                            <td class="O c74">Big Banana</td>
+                            <td class="O c74">$2.99</td>
+                            <td class="O c74">2</td>
+                            <td class="O c74">$5.98</td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <img src="../Images/potato.jpg" class="img1" alt="">
+                            </td>
+                            <td class="O c74">Potatoes</td>
+                            <td class="O c74">$2.99</td>
+                            <td class="O c74">2</td>
+                            <td class="O c74">$5.98</td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <img src="../Images/c3.jpg" class="img1" alt="">
+                            </td>
+                            <td class="O c74">Broccoli</td>
+                            <td class="O c74">$2.99</td>
+                            <td class="O c74">2</td>
+                            <td class="O c74">$5.98</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="4" class="right O c44">
+                                Subtotal
+                            </td>
+                            <td class="O c44">$414.00</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="3" class="O c44">Shipping</td>
+
+                            <td colspan="3">
+                                <div class="shipping-options">
+
+                                    <label class="c74 O">
+                                        <input type="checkbox" style="accent-color:orange;">
+                                        Free Shipping
+                                    </label>
+
+                                    <label class="c74 O">
+                                        <input type="checkbox" style="accent-color:green;">
+                                        Flat Rate: $15.00
+                                    </label>
+
+                                    <label class="c74 O">
+                                        <input type="checkbox" style="accent-color:green;"checked>
+                                        Local Pickup: $8.00
+                                    </label>
+
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="4" class="right O c74">
+                                TOTAL
+                            </td>
+                            <td class="price O c44">$135.00</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+                <div class="payment">
+
+                    <label class="c74 O">
+                        <input type="checkbox" style="accent-color:green;" >
+                        Direct Bank Transfer
+                    </label>
+
+                    <p class=" O c44">
+                        Make your payment directly into our bank account.
+                        Please use your Order ID as the payment reference.
+                    </p>
+                    <!-- <hr> -->
+
+                    <label class="c74 O">
+                        <input type="checkbox" style="accent-color:green;">
+                        Check Payments
+                    </label>
+                    <!-- <hr> -->
+
+                    <label class="c74 O">
+                        <input type="checkbox" style="accent-color:green;">
+                        Cash On Delivery
+                    </label>
+                    <!-- <hr> -->
+                    <label class="c74 O">
+                        <input type="checkbox" style="accent-color:green;">
+                        PayPal
+                    </label>
+                    <!-- <hr> -->
+
+                    <button class=" O c84">PLACE ORDER</button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="f1">
+
+            <!-- Top Section -->
+            <div class="f2">
+                <div class="f3">
+
+                    <div class="f4">
+                        <a href="#">
+                            <h1>Fruitables</h1>
+                            <p>Fresh products</p>
+                        </a>
+                    </div>
+
+                    <div class="f5">
+                        <div class="f6">
+                            <input type="email" placeholder="Your Email">
+                            <button type="submit">Subscribe Now</button>
+                        </div>
+                    </div>
+
+                    <div class="f7">
+                        <div class="f8">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Footer Content -->
+            <div class="container1">
+
+                <div class="c1">
+                    <div class="c2">
+                        <h4 class="fh4">Why People Like us!</h4>
+                        <p class="fhp">
+                            Typesetting, remaining essentially unchanged. It was
+                            popularised in the 1960s with the like Aldus PageMaker
+                            including versions of Lorem Ipsum.
+                        </p>
+
+                        <button class="read-btn">
+                            <a href="#">Read More</a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="c3">
+                    <div class="c4">
+                        <h4 class="fh4">Shop Info</h4>
+
+                        <a href="#">About Us</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & Condition</a>
+                        <a href="#">Return Policy</a>
+                        <a href="#">FAQs & Help</a>
+                    </div>
+                </div>
+
+                <div class="c5">
+                    <div class="c6">
+                        <h4 class="fh4">Account</h4>
+
+                        <a href="#">My Account</a>
+                        <a href="#">Shop Details</a>
+                        <a href="#">Shopping Cart</a>
+                        <a href="#">Wishlist</a>
+                        <a href="#">Order History</a>
+                        <a href="#">International Orders</a>
+                    </div>
+                </div>
+
+                <div class="c7">
+                    <div class="c8">
+                        <h4 class="fh4">Contact</h4>
+
+                        <p class="fhp">Address: 1429 Netus Rd, NY 48247</p>
+                        <p class="fhp">Email: Example@gmail.com</p>
+                        <p class="fhp">Phone: +0123 4567 8910</p>
+                        <p class="fhp">Payment Accepted</p>
+
+                        <img src="../Images/error-2.png" alt="Payment Methods">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="c10">
+
+            <div class="c11">
+                <span>
+                    <a href="#">
+                        <i class="fas fa-copyright"></i>
+                        &nbsp;Your Site Name
+                    </a>,
+                    All Rights Reserved.
+                </span>
+            </div>
+
+            <div class="c12">
+                Designed By
+                <a href="#">HTML Codex</a>
+                &
+                Distributed By
+                <a href="#">ThemeWagon</a>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

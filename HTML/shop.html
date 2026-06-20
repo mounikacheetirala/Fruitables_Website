@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="../CSS/shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;family=Raleway:wght@600;800&amp;display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="head1">
+        <!-- <i class="fas fa-search"></i> -->
+        <div class="location">
+            <p><i class="fas fa-map-marker-alt"></i>&nbsp;123 Street, New York</p>
+            <p><i class="fas fa-envelope"></i>&nbsp;Email@Example.com</p>
+        </div>
+        <div class="terms">
+            <a href="#">Privacy Policy&nbsp;/</a>
+            <a href="#">Terms of Use&nbsp;/</a>
+            <a href="#">Sales and Refunds&nbsp;</a>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Fruitables</h1>
+            </div>
+            <div class="nav-items">
+                <a href="../HTML/home.html">Home</a>
+                <a href="../HTML/shop.html">Shop</a>
+                <a href="../HTML/shopdetails.html">Shop Detail</a>
+                <div class="pages">
+                    <label class="c74">
+                        Pages
+                        <select onchange="location = this.value;">
+                            <option value=""></option>
+                            <option value="../HTML/cart.html">Cart</option>
+                            <option value="../HTML/checkout.html">Checkout</option>
+                            <option value="../HTML/testimonial.html">Testimonial</option>
+                            <option value="../HTML/error.html">Error</option>
+                        </select>
+                    </label>
+                    <!-- <button>Pages &nbsp;&nbsp;<i class="fa fa-caret-down"></i></button> -->
+                </div>
+                <a href="../HTML/contact.html">Contact</a>
+            </div>
+            <div class="icons">
+                <button><i class="fa fa-search"></i></button>
+                <div class="cart-icon">
+                    <i class="fa fa-shopping-bag"></i>
+                    <span class="circle">2</span>
+                </div>
+                <i class="fas fa-user "></i>
+            </div>
+        </nav>
+    </header>
+    <div class="hero-section">
+        <div class="image">
+            <h1 class="R">Shop</h1>
+            <ol>
+                <li><a href="#" class="O">Home &nbsp;/</a></li>
+                <li><a href="#" class="O">Pages &nbsp;/</a></li>
+                <li class="O">Shop</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="container1">
+        <div class="container2">
+            <div class="shop1">
+                <p class="R c4">Fresh Fruits Shop</p>
+            </div>
+            <div class="shop2">
+                <div class="search">
+                    <input type="text" name="" id="" placeholder="keywords">
+                    <button><i class="fa fa-search"></i></button>
+                </div>
+                <div class="shop3">
+                    <label for="" class="O c7">Default Sorting: <select name="" id="">
+                            <option value="" class="O">Nothing</option>
+                            <option value="" class="O">Popularity</option>
+                            <option value="" class="O">Organic</option>
+                            <option value="" class="O">Fantastic</option>
+                        </select></label>
+                </div>
+            </div>
+            <div class="shop4">
+                <div class="category">
+                    <p class="R c4">
+                        Categories
+                    </p>
+                    <ul type="none">
+                        <li>
+                            <div class="list1">
+                                <a href="#"><i class="fas fa-apple-alt me-2"></i> Apples</a>
+                                <span>
+                                    (3)
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list1">
+                                <a href="#"><i class="fas fa-apple-alt me-2"></i> Oranges</a>
+                                <span>
+                                    (5)
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list1">
+                                <a href="#"><i class="fas fa-apple-alt me-2"></i>Strawbery</a>
+                                <span>
+                                    (2)
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list1">
+                                <a href="#"><i class="fas fa-apple-alt me-2"></i>Banana</a>
+                                <span>
+                                    (8)
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list1">
+                                <a href="#"><i class="fas fa-apple-alt me-2"></i> Pumpkin</a>
+                                <span>
+                                    (5)
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="price">
+                        <p class="c4 R">Price</p>
+                        <input type="range" name="" id="">
+                    </div>
+                    <div class="additional">
+                        <p class="c4 R">Additional</p>
+                        <ul type="none" class="O c7">
+                            <li>
+                                <input type="radio" name="" id="">Organic
+                            </li>
+                            <li>
+                                <input type="radio" name="" id="">Fresh
+                            </li>
+                            <li>
+                                <input type="radio" name="" id="">Sales
+                            </li>
+                            <li>
+                                <input type="radio" name="" id="">Discount
+                            </li>
+                            <li>
+                                <input type="radio" name="" id="">Expired
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="featured">
+                        <h4 class="R c4">Featured products</h4>
+                        <div class="list2">
+                            <div class="image2">
+                                <img src="../Images/appleb.jpg" alt="">
+                            </div>
+
+                            <div class="product-info">
+                                <h6 class="R c4">Big Banana</h6>
+
+                                <div class="stars">
+                                    <i class="fa fa-star text-secondary"></i>
+                                    <i class="fa fa-star text-secondary"></i>
+                                    <i class="fa fa-star text-secondary"></i>
+                                    <i class="fa fa-star text-secondary"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+
+                                <div class="price-box">
+                                    <span class="price c4 R">$2.99</span>
+                                    <span class="old-price R">$4.11</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list2">
+                            <div class="image2">
+                                <img src="../Images/strawberry.jpg">
+                            </div>
+
+                           <div class="product-info">
+                                <h6 class="R c4">Big Banana</h6>
+
+                                <div class="stars">
+                                    <i class="fa fa-star text-secondary"></i>
+                                    <i class="fa fa-star text-secondary"></i>
+                                    <i class="fa fa-star text-secondary"></i>
+                                    <i class="fa fa-star text-secondary"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+
+                                <div class="price-box">
+                                    <span class="price c4 R">$2.99</span>
+                                    <span class="old-price R">$4.11</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list2">
+                            <div class="image2">
+                                <img src="../Images/c4l.jpg" alt="">
+                            </div>
+
+                            <div class="product-info">
+                                <h6 class="R c4">Big Banana</h6>
+
+                                <div class="stars">
+                                    <i class="fa fa-star text-secondary"></i>
+                                    <i class="fa fa-star text-secondary"></i>
+                                    <i class="fa fa-star text-secondary"></i>
+                                    <i class="fa fa-star text-secondary"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+
+                                <div class="price-box">
+                                    <span class="price c4 R">$2.99</span>
+                                    <span class="old-price R">$4.11</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn2">
+                            <button>View More</button>
+                        </div>
+                        <div class="image3">
+                            <img src="../Images/shop4.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="fruits">
+                    <div class="product-card">
+                        <div class="grapes">
+                            <img src="../Images/grapes.jpg" alt="" srcset="" width="280px">
+                        </div>
+                        <div class="tag O">Fruits</div>
+                        <div class="f-content">
+                            <p class="g1 R c4">Grapes</p>
+                            <p class=" g2 O c7">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
+                                incididunt
+                            </p>
+                            
+                            <p class="g3 O c4">$4.99 / kg</p>
+                            <div class="card-footer2">
+                                <button class="c8 O"><i class="fa fa-shopping-bag"></i> Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="grapes">
+                            <img src="../Images/grapes.jpg" alt="" srcset="" width="280px">
+                        </div>
+                        <div class="tag">Fruits</div>
+                        <div class="f-content">
+                            <p class="g1 R c4">Grapes</p>
+                            <p class=" g2 O c7">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
+                                incididunt
+                            </p>
+                          
+                            <p class="g3  O c4">$4.99 / kg</p>
+                             <div class="card-footer2">
+                                <button class="c8 O"><i class="fa fa-shopping-bag"></i> Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="grapes">
+                            <img src="../Images/berry.jpg" alt="" srcset="" width="280px">
+                        </div>
+                        <div class="tag">Fruits</div>
+                        <div class="f-content">
+                            <p class="g1 R c4">Grapes</p>
+                            <p class=" g2 O c7">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
+                                incididunt
+                            </p>
+                          
+                            <p class="g3  O c4">$4.99 / kg</p>
+                            <div class="card-footer2">
+                                <button class="c8 O"><i class="fa fa-shopping-bag"></i> Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="grapes">
+                            <img src="../Images/papaya.jpg" alt="" srcset="" width="280px">
+                        </div>
+                        <div class="tag">Fruits</div>
+                        <div class="f-content">
+                            <p class="g1 R c4">Grapes</p>
+                            <p class=" g2 O c7">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
+                                incididunt
+                            </p>
+                           
+                            <p class="g3  O c4">$4.99 / kg</p>
+                           <div class="card-footer2">
+                                <button class="c8 O"><i class="fa fa-shopping-bag"></i> Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="grapes">
+                            <img src="../Images/apple.jpg" alt="" srcset="" width="280px">
+                        </div>
+                        <div class="tag">Fruits</div>
+                        <div class="f-content">
+                            <p class="g1 R c4">Grapes</p>
+                            <p class=" g2 O c7">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
+                                incididunt
+                            </p>
+                         
+                            <p class="g3  O c4">$4.99 / kg</p>
+                       <div class="card-footer2">
+                                <button class="c8 O"><i class="fa fa-shopping-bag"></i> Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="grapes">
+                            <img src="../Images/grapes.jpg" alt="" srcset="" width="280px">
+                        </div>
+                        <div class="tag">Fruits</div>
+                        <div class="f-content">
+                            <p class="g1 R c4">Grapes</p>
+                            <p class=" g2 O c7">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
+                                incididunt
+                            </p>
+                         
+                            <p class="g3  O c4">$4.99 / kg</p>
+                        <div class="card-footer2">
+                                <button class="c8 O"><i class="fa fa-shopping-bag"></i> Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="grapes">
+                            <img src="../Images/berry.jpg" alt="" srcset="" width="280px">
+                        </div>
+                        <div class="tag">Fruits</div>
+                        <div class="f-content">
+                            <p class="g1 R c4">Grapes</p>
+                            <p class=" g2 O c7">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
+                                incididunt
+                            </p>
+                           
+                            <p class="g3  O c4">$4.99 / kg</p>
+                          <div class="card-footer2">
+                                <button class="c8 O"><i class="fa fa-shopping-bag"></i> Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="grapes">
+                            <img src="../Images/grapes.jpg" alt="" srcset="" width="280px">
+                        </div>
+                        <div class="tag">Fruits</div>
+                        <div class="f-content">
+                            <p class="g1 R c4">Grapes</p>
+                            <p class=" g2 O c7">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
+                                incididunt
+                            </p>
+                           
+                            <p class="g3  O c4">$4.99 / kg</p>
+                       <div class="card-footer2">
+                                <button class="c8 O"><i class="fa fa-shopping-bag"></i> Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="product-card">
+                        <div class="grapes">
+                            <img src="../Images/papaya.jpg" alt="" srcset="" width="280px">
+                        </div>
+                        <div class="tag">Fruits</div>
+                        <div class="f-content">
+                            <p class="g1 R c4">Grapes</p>
+                            <p class=" g2 O c7">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te
+                                incididunt
+                            </p>
+                           
+                            <p class="g3  O c4">$4.99 / kg</p>
+                           <div class="card-footer2">
+                                <button class="c8 O"><i class="fa fa-shopping-bag"></i> Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="page">
+                        <div class="numbers">
+                            <a href="#">«</a>
+                            <a href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">6</a>
+                            <a href="#">»</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <footer>
+        <div class="f1">
+
+            <!-- Top Section -->
+            <div class="f2">
+                <div class="f3">
+
+                    <div class="f4">
+                        <a href="#">
+                            <h1>Fruitables</h1>
+                            <p>Fresh products</p>
+                        </a>
+                    </div>
+
+                    <div class="f5">
+                        <div class="f6">
+                            <input type="email" placeholder="Your Email">
+                            <button type="submit">Subscribe Now</button>
+                        </div>
+                    </div>
+
+                    <div class="f7">
+                        <div class="f8">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Footer Content -->
+            <div class="container1">
+
+                <div class="c1">
+                    <div class="c2">
+                        <h4 class="fh4">Why People Like us!</h4>
+                        <p class="fhp">
+                            Typesetting, remaining essentially unchanged. It was
+                            popularised in the 1960s with the like Aldus PageMaker
+                            including versions of Lorem Ipsum.
+                        </p>
+
+                        <button class="read-btn">
+                            <a href="#">Read More</a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="c3">
+                    <div class="c4">
+                        <h4 class="fh4">Shop Info</h4>
+
+                        <a href="#">About Us</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & Condition</a>
+                        <a href="#">Return Policy</a>
+                        <a href="#">FAQs & Help</a>
+                    </div>
+                </div>
+
+                <div class="c5">
+                    <div class="c6">
+                        <h4 class="fh4">Account</h4>
+
+                        <a href="#">My Account</a>
+                        <a href="#">Shop Details</a>
+                        <a href="#">Shopping Cart</a>
+                        <a href="#">Wishlist</a>
+                        <a href="#">Order History</a>
+                        <a href="#">International Orders</a>
+                    </div>
+                </div>
+
+                <div class="c7">
+                    <div class="c8">
+                        <h4 class="fh4">Contact</h4>
+
+                        <p class="fhp">Address: 1429 Netus Rd, NY 48247</p>
+                        <p class="fhp">Email: Example@gmail.com</p>
+                        <p class="fhp">Phone: +0123 4567 8910</p>
+                        <p class="fhp">Payment Accepted</p>
+
+                        <img src="../Images/error-2.png" alt="Payment Methods">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="c10">
+
+            <div class="c11">
+                <span>
+                    <a href="#">
+                        <i class="fas fa-copyright"></i>
+                        &nbsp;Your Site Name
+                    </a>,
+                    All Rights Reserved.
+                </span>
+            </div>
+
+            <div class="c12">
+                Designed By
+                <a href="#">HTML Codex</a>
+                &
+                Distributed By
+                <a href="#">ThemeWagon</a>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
